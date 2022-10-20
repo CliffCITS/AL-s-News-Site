@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #bc5a45;
+    overflow: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* nav start */
+
+nav {
+    background: #802000;
+    overflow: auto;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bc5a45;
+  }
+  
+  li {
+    float: left;
+    border-right:solid white 1px;
+    /* changed border from left to right */
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #802000;
+  }
+
+/* nav end */
+
+.fa-home,
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus,
+.fa-youtube {
+    font-size: 20px;
+}
+
+.sidebar {
+    height: auto;
+    /* changed height to auto */
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: lightblue;
+    border: 3px solid;
+    border-color: red black;
+    border-radius: 9px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 200px;
+    margin-top: 8%;
+    margin-left: 1.0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* added padding to the left and right of the sidebar so text wont slam up against the sides */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* line height for readability */
+    line-height: 20px;
+
+}
+
+.body-text {
+    /* margin-left: 150px; */
+    font-size: 18px;
+}
+
+
+
+#news {
+
+    /* margin-top:11%; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* width:77vw; */
+    flex-grow: 1;
+    margin: 0auto;
+    width: 650px;
+    right: 300px;
+    margin-left: 26%;
+    color: #cfe0e8;
+}
+
+#news p {
+    text-indent: 50px;
+    /* indent every paragraph in #news */
+    line-height: 25px;
+    /* line height for readability */
+}
+
+h4 {
+    margin-bottom: 7%;
+    margin: auto;
+    width: 38%;
+    margin-top: 4.1%;
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#divider {
+    margin: 14%;
+}
+
+#endnote {
+    flex-grow: 1;
+    margin: 0auto;
+    width: 650px;
+    right: 300px;
+    margin-left: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name,
+h3 {
+    text-decoration: underline #FFCC00;
+}
+
+h5 {
+    font-family: 'Rock Salt', cursive;
+    background-color: #802000;
+
+}
+
+a[href*='twitter.com/'] {
+    color: #0088cc;
+
+}
+
+a[href*='twitter.com/']:hover {
+    color: #55ACEE;
+    
+}
+
+a[href*='instagram.com/']:hover {
+    color: #55ACEE;
+    /* important ! */
+}
+
+a[href*='facebook.com/'] {
+    color: #0088cc;
+    /* important ! */
+}
+
+a[href*='facebook.com/']:hover {
+    color: #55ACEE;
+    /* important ! */
+}
+
+a[href*='instagram.com/'] {
+    color: #0088cc;
+    /* important ! */
+}
+
+.sidebar {
+    padding-left: 10px;
+
+}
+
+/* -- footer -- */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #802000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #bc5a45;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* -- social icon styles -- */
+
+  .icons .fa-brands {
+    color: #bc5a45;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+  }
+
+  .icons .fa-brands:hover {
+    color: rgba(1,163,227,0.7);
+  }
+
+  /* -- footer end -- */
